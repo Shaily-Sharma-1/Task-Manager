@@ -1,4 +1,3 @@
-# Task-Manager
 # 📌 Task Manager Web Application
 
 A full-stack **Task Management System** that allows users to create projects, assign tasks, and track progress with role-based access control (Admin & Member). This project is designed to improve productivity and collaboration within teams.
@@ -50,6 +49,56 @@ A full-stack **Task Management System** that allows users to create projects, as
 - Git & GitHub
 
 ---
+###Project Struture
 
-## 📂 Project Structure
+Task-Manager/
+│
+├── backend/
+│ ├── controllers/
+│ │ ├── authController.js
+│ │ ├── projectController.js
+│ │ └── taskController.js
+│ │
+│ ├── models/
+│ │ ├── User.js
+│ │ ├── Project.js
+│ │ └── Task.js
+│ │
+│ ├── routes/
+│ │ ├── authRoutes.js
+│ │ ├── projectRoutes.js
+│ │ └── taskRoutes.js
+│ │
+│ ├── middleware/
+│ │ └── authMiddleware.js
+│ │
+│ ├── config/
+│ │ └── db.js
+│ │
+│ └── server.js
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Navbar.js
+│ │ │ ├── TaskCard.js
+│ │ │ └── ProjectCard.js
+│ │ │
+│ │ ├── pages/
+│ │ │ ├── Login.js
+│ │ │ ├── Register.js
+│ │ │ ├── Dashboard.js
+│ │ │ └── ProjectPage.js
+│ │ │
+│ │ ├── services/
+│ │ │ └── api.js
+│ │ │
+│ │ ├── App.js
+│ │ └── index.js
+│ │
+│ └── package.json
+│
+├── .env
+├── package.json
+└── README.md
 
