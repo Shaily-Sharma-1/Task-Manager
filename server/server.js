@@ -14,7 +14,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://your-frontend.vercel.app",
+  "https://taskhivetrack.netlify.app",
 ];
 
 app.use(
